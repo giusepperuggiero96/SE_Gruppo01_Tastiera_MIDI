@@ -10,7 +10,7 @@ Per compilare l'applicazione basta spostarsi sul terminale nella cartella `deplo
 $ make prepare
 $ make
 ```
-ed in seguito per lanciare l'applicazione aprire openOCD oppure qualunque altro on-chip debugger e lanciare il comando:
+ed in seguito per lanciare l'applicazione aprire openOCD oppure qualunque altro on-chip debugger e , nel caso si faccia uso del debugger `gdb-multiarch` lanciare il comando:
 ```
 $ make debug
 ```
