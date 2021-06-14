@@ -1,6 +1,10 @@
 # Progetto P1 Sistemi Embedded
 ## Gruppo 01: Barletta, Corvi, Marchetta, Ruggiero
 
+<P align="center">
+<img src="https://github.com/giusepperuggiero96/SE_Gruppo01_Tastiera_MIDI/blob/71d71191e0dc0e992c8aea036889fa53c0cd0719/imgs/photo_2021-06-14_12-36-59.jpg" width="450">
+</p>
+
 ## Sviluppo di una tastiera MIDI su breadboard
 La documentazione completa del progetto è disponibile sulla [Wiki](http://www.naplespu.com/es/index.php?title=Sviluppo_di_un%27applicazione_basata_su_middleware_STM32Cube:_USB_DeviceAudio_Class)
 
