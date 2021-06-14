@@ -1,5 +1,5 @@
 # Progetto P1 Sistemi Embedded
-## Gruppo 01: Barletta, Corvi, Marchetta Ruggiero
+## Gruppo 01: Barletta, Corvi, Marchetta, Ruggiero
 
 ## Sviluppo di una tastiera MIDI su breadboard
 La documentazione completa del progetto è disponibile sulla [Wiki](http://www.naplespu.com/es/index.php?title=Sviluppo_di_un%27applicazione_basata_su_middleware_STM32Cube:_USB_DeviceAudio_Class)
@@ -10,7 +10,7 @@ Per compilare l'applicazione basta spostarsi sul terminale nella cartella `deplo
 $ make prepare
 $ make
 ```
-ed in seguito per lanciare l'applicazione aprire openOCD oppure qualunque altro on-chip debugger e lanciare il comando:
+ed in seguito per lanciare l'applicazione aprire openOCD oppure qualunque altro on-chip debugger e , nel caso si faccia uso del debugger `gdb-multiarch` lanciare il comando:
 ```
 $ make debug
 ```
