@@ -22,4 +22,4 @@ Nel caso invece si faccia uso del debugger `arm-none-eabi-gcc` lanciare invece i
 ```
 $ make debug2
 ```
-A questo punto aprendo una qualunque Digital Audio Workstation (ad esempio [lmms](https://lmms.io/lsp/), workstation FOSS per linux) si può testare il funzionamento del programma premendo il bottone *user* che suonerà un brano di esempio, oppure, nel caso si disponga della breadboard si può suonare premendo i bottoni e modificare il pitch girando la rotellina del potenziometro.
+A questo punto aprendo una qualunque Digital Audio Workstation (ad esempio [lmms](https://lmms.io/lsp/), workstation FOSS per linux) si può testare il funzionamento del programma premendo il bottone *user* che riprodurrà un brano di esempio, oppure, nel caso si disponga della breadboard si può suonare premendo i bottoni e modificare il pitch girando la rotellina del potenziometro.
