@@ -125,6 +125,13 @@ int main(void)
     /* Disconnect the USB device */
   USBD_Stop(&hUSBDDevice);
   USBD_DeInit(&hUSBDDevice);
+  HAL_ADC_Stop_IT(&AdcHandle);
+  HAL_ADC_DeInit(&AdcHandle);
+  HAL_TIM_Base_Stop_IT(&TimHandle_5);
+  HAL_TIM_Base_Stop(&htim);
+  HAL_TIM_Base_DeInit(&htim);
+  HAL_TIM_Base_DeInit(&TimHandle_5);
+  HAL_DeInit();
 }
 
 // USB configuration
