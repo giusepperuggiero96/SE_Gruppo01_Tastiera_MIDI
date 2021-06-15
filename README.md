@@ -6,7 +6,8 @@
 </p>
 
 ## Sviluppo di una tastiera MIDI su breadboard
-La documentazione completa del progetto è disponibile sulla [Wiki](http://www.naplespu.com/es/index.php?title=Sviluppo_di_un%27applicazione_basata_su_middleware_STM32Cube:_USB_DeviceAudio_Class)
+La documentazione completa del progetto è disponibile sulla [Wiki](http://www.naplespu.com/es/index.php?title=Sviluppo_di_un%27applicazione_basata_su_middleware_STM32Cube:_USB_DeviceAudio_Class).</br>
+Una demo del funzionamento della tastiera è disponibile in questo [Video](https://youtu.be/TmSivjw7Sj4).
 
 ## Compilazione
 Per compilare l'applicazione basta spostarsi dal terminale nella cartella `deploy` e lanciare in sequenza i comandi:
