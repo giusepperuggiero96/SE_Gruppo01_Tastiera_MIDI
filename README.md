@@ -10,7 +10,7 @@ La documentazione completa del progetto è disponibile sulla [Wiki](http://www.n
 Una demo del funzionamento della tastiera è disponibile in questo [Video](https://youtu.be/TmSivjw7Sj4).
 
 ## Compilazione
-Per compilare l'applicazione basta spostarsi dal terminale nella cartella `deploy` e lanciare in sequenza i comandi:
+Per compilare l'applicazione basta spostarsi da terminale nella cartella `deploy` e lanciare in sequenza i comandi:
 ```
 $ make prepare
 $ make
@@ -19,7 +19,7 @@ ed in seguito per lanciare l'applicazione aprire openOCD oppure qualunque altro 
 ```
 $ make debug
 ```
-Nel caso invece si faccia uso del debugger `arm-none-eabi-gcc` lanciare invece il comando:
+Nel caso invece si faccia uso del debugger `arm-none-eabi-gdb` lanciare invece il comando:
 ```
 $ make debug2
 ```
