@@ -257,8 +257,10 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef* tim)
       midi_note.channel = channel;
       midi_note.cmd = NOTE_ON;
 
+      HAL_NVIC_DisableIRQ(ADCx_IRQn);
       if(USBD_MIDI_SendNote(&hUSBDDevice, &midi_note) != USBD_OK)
         Error_Handler();
+      HAL_NVIC_EnableIRQ(ADCx_IRQn);
     }
   // Note-off message sent on falling edge
   } else if(!HAL_GPIO_ReadPin((button == KEY_BUTTON_PIN) ? KEY_BUTTON_GPIO_PORT : GPIOE, button)){
@@ -271,8 +273,10 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef* tim)
       midi_note.channel = channel;
       midi_note.cmd = NOTE_OFF;
 
+      HAL_NVIC_DisableIRQ(ADCx_IRQn);
       if(USBD_MIDI_SendNote(&hUSBDDevice, &midi_note) != USBD_OK)
         Error_Handler();
+      HAL_NVIC_EnableIRQ(ADCx_IRQn);
       // index incremented mod(LENGHT) to avoid overflow
       if (button == KEY_BUTTON_PIN)
         index = (index+1) % SONG_LENGTH;

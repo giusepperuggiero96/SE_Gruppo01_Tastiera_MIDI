@@ -36,7 +36,7 @@ typedef struct{
 } USBD_MIDI_NoteTypedef;
 
 typedef struct{
-    uint8_t pitchBend;
+    uint16_t pitchBend;
     uint8_t channel;
 } USBD_MIDI_PitchTypedef;
 
